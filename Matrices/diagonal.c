@@ -1,5 +1,30 @@
 #include "stdio.h"
 int main()
+  {
+  int a[50];
+  int i,j,x;
+
+  for(i=0;i<5;i++)
+  {
+    for(j=0;j<5;j++)
+    {
+    if(i==j)
+    scanf("%ds\n",&a[i]);
+    }
+  }
+for(i=0;i<5;i++)
+{
+  for(j=0;j<5;j++)
+  {
+    if(i==j)
+    printf("%d", a[i]);
+    else
+    printf("0");
+
+  }
+  printf("\n" );
+}
+}
 /*{
   int a[10];
   int i,j,x;
@@ -39,31 +64,7 @@ void display(int a[])
     }
   }
 }*/
-{
-  int a[50];
-  int i,j,x;
 
-  for(i=0;i<5;i++)
-  {
-    for(j=0;j<5;j++)
-    {
-    if(i==j)
-    scanf("%ds\n",&a[i]);
-    }
-  }
-for(i=0;i<5;i++)
-{
-  for(j=0;j<5;j++)
-  {
-    if(i==j)
-    printf("%d", a[i]);
-    else
-    printf("0");
-
-  }
-  printf("\n" );
-}
-}
 //using structures
 /*Diagonal Matrix C
 #include <stdio.h>
